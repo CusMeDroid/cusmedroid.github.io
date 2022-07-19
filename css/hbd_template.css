@@ -405,6 +405,10 @@ footer {
     padding: 4px;
 }
 
+.lkoo {
+    padding: 4px;
+}
+
 .memenu {
   cursor: pointer;
   position: fixed;
@@ -477,6 +481,8 @@ footer {
   background: linear-gradient(#57CBAB, #00FF62);
 }
 
+#contact{padding-bottom: 10px;}
+
 @media screen and (max-width: 1000px) {
     header {
         height: auto;
@@ -523,5 +529,6 @@ footer {
   .sp-footers {display: block;padding: 20px;}
   #wish{margin-bottom: 10px;}
   .lko {padding: 14px;}
+  .lkoo {padding: 4px 14px;}
   .memenupoa {display: none;}
 }
