@@ -159,7 +159,6 @@ nav {
 
 .my-input-submit {
   width: 100%;
-  background: linear-gradient(#00FF62, #57CBAB);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border: 0px;
   border-radius: 20px;
@@ -168,10 +167,6 @@ nav {
   color: #fff;
   cursor: pointer;
   transition-duration: 0.5s;
-}
-
-.my-input-submit:hover {
-  background: linear-gradient(#57CBAB, #00FF62);
 }
 
 .m1 {
@@ -274,7 +269,6 @@ nav {
 
 footer {
     padding: 50px;
-    background: linear-gradient(#00FF62, #57CBAB);
     color: #fff;
     text-align: center;
 }
@@ -315,6 +309,8 @@ footer {
 .mus {
     padding: 5px;
 }
+
+.denone {display:none;}
 
 .animate-fading{
     animation:fading 10s infinite;
@@ -468,6 +464,18 @@ footer {
 }
 
 .memenupoa {display: none;}
+
+.hbd-tmp-bg {
+  background: linear-gradient(#00FF62, #57CBAB);
+}
+
+.hbd-tmp-bg-btn {
+  background: linear-gradient(#00FF62, #57CBAB);
+}
+
+.hbd-tmp-bg-btn:hover {
+  background: linear-gradient(#57CBAB, #00FF62);
+}
 
 @media screen and (max-width: 1000px) {
     header {
