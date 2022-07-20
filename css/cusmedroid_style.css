@@ -126,10 +126,6 @@ a {
 .patobo {
     padding: 8px;
 }
-
-.mabo-10 {
-    margin-bottom: 10px;
-}
 /* End More IDK class */
 
 /* Background-image */
@@ -576,6 +572,7 @@ footer {
   .column4{width: 50%;}
   .sukron {display: block;}
   .white-bg-mobile {background: #FFF !important;}
+  .mabo {margin-bottom: 8px;}
   .alaau {display: none;}
   .deksmus {display: none;}
   .header {display: block;}
