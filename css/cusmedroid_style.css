@@ -134,16 +134,18 @@ a {
 /* Background-image */
 .green-bg-img {
     background: url(../images/bg/green-bground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 .orange-bg-img {
     background: url(../images/bg/orange-bground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 header {
     padding: 20px;
     padding: 25px;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
     height: 500px;
 }
 
