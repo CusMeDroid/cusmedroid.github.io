@@ -1,6 +1,6 @@
 /*
 * Please do not remove this
-* 7/17/2022
+* 7/21/2022 4:00 AM
 * Template by CusMeDroid
 * IyoRTML
 * Suryo DwiJayanto
@@ -122,12 +122,13 @@ a {
 .lkoo {
     padding: 4px;
 }
+
 .patobo {
     padding: 8px;
 }
 
-.pabo {
-    padding-bottom: 10px;
+.mabo-10 {
+    margin-bottom: 10px;
 }
 /* End More IDK class */
 
