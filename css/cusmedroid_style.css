@@ -133,10 +133,10 @@ a {
 
 /* Background-image */
 .green-bg-img {
-    background: url(https://cusmedroid.github.io/hbd-template-responsive/images/bground.jpg);
+    background: url(../images/bg/green-bground.jpg);
 }
 .orange-bg-img {
-    background: url(https://cusmedroid.github.io/cv/suryodwijayanto/images/bground.jpg);
+    background: url(../images/bg/orange-bground.jpg);
 }
 
 header {
