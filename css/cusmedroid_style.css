@@ -574,7 +574,7 @@ footer {
   .main{padding: 0;}
   .column4{width: 50%;}
   .sukron {display: block;}
-  .white-bg-mobile {background: #FFF;}
+  .white-bg-mobile {background: #FFF !important;}
   .alaau {display: none;}
   .deksmus {display: none;}
   .header {display: block;}
