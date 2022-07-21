@@ -556,7 +556,7 @@ footer {
 .memenupoa {display: none;}
 
 /* Responsive Tablet */
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1040px) {
     header {
         height: auto;
         background-size: 100% auto;
