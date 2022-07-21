@@ -55,6 +55,10 @@ a {
 .violet-music-btn-color {
     color: #9921D5 !important;
 }
+
+.magenta-music-btn-color {
+    color: #FF00FF !important;
+}
 /* End Color */
 
 /* Fonts */
@@ -118,6 +122,19 @@ a {
 .violet-grad-bg-btn:hover {
   background: linear-gradient(#6442A0, #9921D5);
 }
+
+/* magenta */
+.magenta-grad-bg {
+  background: linear-gradient(#FF00FF, #A346A3);
+}
+
+.magenta-grad-bg-btn {
+  background: linear-gradient(#FF00FF, #A346A3);
+}
+
+.magenta-grad-bg-btn:hover {
+  background: linear-gradient(#A346A3, #FF00FF);
+}
 /* End Background */
 
 /* More IDK class */
@@ -162,6 +179,11 @@ a {
 }
 .violet-bg-img {
     background: url(../images/bg/violet-bground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.magenta-bg-img {
+    background: url(../images/bg/magenta-bground.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
