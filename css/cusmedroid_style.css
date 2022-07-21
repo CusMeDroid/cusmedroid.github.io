@@ -575,7 +575,7 @@ footer {
 
 /* Responsive Mobile */
 @media screen and (max-width: 800px) {
-  .column2 {width: 100%;padding: 8px 14px;}
+  .column2 {width: 100%;}
   header {
     height: auto;
     background-size: 100% auto;
