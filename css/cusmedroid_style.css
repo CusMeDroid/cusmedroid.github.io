@@ -1,6 +1,6 @@
 /*
 * Please do not remove this
-* 7/21/2022 4:00 AM
+* 7/21/2022 4:42 PM
 * Template by CusMeDroid
 * IyoRTML
 * Suryo DwiJayanto
@@ -142,6 +142,10 @@ a {
 
 .patobo {
     padding: 8px;
+}
+
+.circle {
+    border-radius: 50%;
 }
 /* End More IDK class */
 
@@ -566,13 +570,12 @@ footer {
     .memenupoa {display: block;}
     #musicpa {top: 60%;}
     #musicpl {top: 60%;}
-
+    .column3{width: 100%;}
 }
 
 /* Responsive Mobile */
 @media screen and (max-width: 800px) {
   .column2 {width: 100%;padding: 8px 14px;}
-  .column3{width: 100%;}
   header {
     height: auto;
     background-size: 100% auto;
