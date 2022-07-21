@@ -6,6 +6,10 @@
 * Suryo DwiJayanto
 */
 
+html {
+    scroll-behavior: smooth;
+}
+
 html body {
     height: 100%;
 }
@@ -14,10 +18,6 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-}
-
-#myCopyRight {
-    scroll-behavior: smooth;
 }
 
 * {
