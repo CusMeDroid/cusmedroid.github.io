@@ -570,7 +570,7 @@ footer {
     .memenupoa {display: block;}
     #musicpa {top: 60%;}
     #musicpl {top: 60%;}
-    .column3{width: 100%;}
+    .column3 {width: 100%;padding: 8px 14px;}
 }
 
 /* Responsive Mobile */
