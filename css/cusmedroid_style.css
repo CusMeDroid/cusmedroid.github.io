@@ -818,7 +818,7 @@ footer {
     background-size: 100% auto;
     padding: 10px;
   }
-  #sugesto {
+  .sugesto {
     position: -webkit-sticky;
     position: sticky;
     background: white;
@@ -843,6 +843,14 @@ footer {
   .sp-footers {display: block;padding: 20px;}
   #wish{margin-bottom: 10px;}
   .lko {padding: 14px;}
-  .lkoo {padding: 8px 14px;}
+  .lkoo {padding: 4px 14px;}
   .memenupoa {display: none;}
+}
+
+@media screen and (max-width: 560px) {
+    .card-img {height: 230px;}
+}
+
+@media screen and (max-width: 375px) {
+    .card-img {height: 150px;}
 }
