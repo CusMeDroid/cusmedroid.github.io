@@ -100,15 +100,15 @@ a {
 }
 
 /* Orange */
-.orenge-grad-bg {
+.orange-grad-bg {
   background: linear-gradient(#FF6A00, #CB9557);
 }
 
-.orenge-grad-bg-btn {
+.orange-grad-bg-btn {
   background: linear-gradient(#FF6A00, #CB9557);
 }
 
-.orenge-grad-bg-btn:hover {
+.orange-grad-bg-btn:hover {
   background: linear-gradient(#CB9557, #FF6A00);
 }
 
