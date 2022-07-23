@@ -336,6 +336,58 @@ a {
 }
 /* End More IDK class */
 
+/* Margin */
+.marg-4 {
+    margin: 4px;
+}
+
+.marg-8 {
+    margin: 8px;
+}
+
+.marg-10 {
+    margin: 10px;
+}
+
+.marg-16 {
+    margin: 16px;
+}
+
+.marg-20 {
+    margin: 20px;
+}
+
+.marg-26 {
+    margin: 26px;
+}
+/* End Margin */
+
+/* Padding */
+.padd-4 {
+    padding: 4px;
+}
+
+.padd-8 {
+    padding: 8px;
+}
+
+.padd-10 {
+    padding: 10px;
+}
+
+.padd-16 {
+    padding: 16px;
+}
+
+.padd-20 {
+    padding: 20px;
+}
+
+.padd-26 {
+    padding: 26px;
+}
+/* End Padding */
+
 /* Splash load */
 .preloader {
     position: fixed;
