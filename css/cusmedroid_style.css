@@ -1,6 +1,6 @@
 /*
 * Please do not remove this
-* 7/21/2022 4:42 PM
+* 7/23/2022 4:33 PM
 * Template by CusMeDroid
 * IyoRTML
 * Suryo DwiJayanto
@@ -34,6 +34,82 @@ a {
 }
 
 /* Color */
+.red {
+    color: #f44336 !important; /* Red */
+}
+
+.pink {
+    color: #e81e63 !important; /* Pink */
+}
+
+.purple {
+    color: #9c27b0 !important; /* Purple */
+}
+
+.deep-purple {
+    color: #673ab7 !important; /* Deep Purple */
+}
+
+.indigo {
+    color: #3f51b5 !important; /* Indigo */
+}
+
+.blue {
+    color: #2196f3 !important; /* Blue */
+}
+
+.light-blue {
+    color: #03a9f4 !important; /* Light Blue */
+}
+
+.cyan {
+    color: #00bcd4 !important; /* Cyan */
+}
+
+.teal {
+    color: #009688 !important; /* Teal */
+}
+
+.green {
+    color: #00FF62 !important; /* Green */
+}
+
+.light-green {
+    color: #8bc34a !important; /* Light Green */
+}
+
+.lime {
+    color: #cddc39 !important; /* Lime */
+}
+
+.yellow {
+    color: #ffeb3b !important; /* Yellow */
+}
+
+.amber {
+    color: #ffeb3b !important; /* Amber */
+}
+
+.orange {
+    color: #FF6A00 !important; /* Orange */
+}
+
+.deep-orange {
+    color: #ff5722 !important; /* Deep Orange */
+}
+
+.brown {
+    color: #795548 !important; /* Brown */
+}
+
+.blue-gray {
+    color: #607d8b !important; /* Blue Gray */
+}
+
+.gold {
+    color: #d4af37 !important; /* Gold */
+}
+
 .gray {
     color: #777 !important; /* Gray */
 }
@@ -43,23 +119,15 @@ a {
 }
 
 .black {
-    color: #000 !important; /* Black */
+    color: #111 !important; /* Black */
 }
 
-.green-music-btn-color {
-    color: #00FF62;
+.violet {
+    color: #9921D5 !important; /* Violet */
 }
 
-.orange-music-btn-color {
-    color: #FF6A00 !important;
-}
-
-.violet-music-btn-color {
-    color: #9921D5 !important;
-}
-
-.magenta-music-btn-color {
-    color: #FF00FF !important;
+.magenta {
+    color: #FF00FF !important; /* Magenta */
 }
 /* End Color */
 
@@ -78,15 +146,107 @@ a {
 /*End Fonts*/
 
 /* Background */
-.black-bg {
-    background: #000 !important;
+.red-bg {
+    background: #f44336 !important; /* Red */
+}
+
+.pink-bg {
+    background: #e81e63 !important; /* Pink */
+}
+
+.purple-bg {
+    background: #9c27b0 !important; /* Purple */
+}
+
+.deep-purple-bg {
+    background: #673ab7 !important; /* Deep Purple */
+}
+
+.indigo-bg {
+    background: #3f51b5 !important; /* Indigo */
+}
+
+.blue-bg {
+    background: #2196f3 !important; /* Blue */
+}
+
+.light-blue-bg {
+    background: #03a9f4 !important; /* Light Blue */
+}
+
+.cyan-bg {
+    background: #00bcd4 !important; /* Cyan */
+}
+
+.teal-bg {
+    background: #009688 !important; /* Teal */
+}
+
+.green-bg {
+    background: #00FF62 !important; /* Green */
+}
+
+.light-green-bg {
+    background: #8bc34a !important; /* Light Green */
+}
+
+.lime-bg {
+    background: #cddc39 !important; /* Lime */
+}
+
+.yellow-bg {
+    background: #ffeb3b !important; /* Yellow */
+}
+
+.amber-bg {
+    background: #ffeb3b !important; /* Amber */
+}
+
+.orange-bg {
+    background: #FF6A00 !important; /* Orange */
+}
+
+.deep-orange-bg {
+    background: #ff5722 !important; /* Deep Orange */
+}
+
+.brown-bg {
+    background: #795548 !important; /* Brown */
+}
+
+.blue-gray-bg {
+    background: #607d8b !important; /* Blue Gray */
+}
+
+.gold-bg {
+    background: #d4af37 !important; /* Gold */
+}
+
+.gray-bg {
+    background: #777 !important; /* Gray */
 }
 
 .white-bg {
-    background: #FFF !important;
+    background: #FFF !important; /* White */
 }
 
-/* Green */
+.black-bg {
+    background: #111 !important; /* Black */
+}
+
+.violet-bg {
+    background: #9921D5 !important; /* Violet */
+}
+
+.magenta-bg {
+    background: #FF00FF !important; /* Magenta */
+}
+
+/*
+* Gradient Main 
+* Green 
+*/
+
 .green-grad-bg {
   background: linear-gradient(#00FF62, #57CBAB);
 }
@@ -163,6 +323,14 @@ a {
     padding: 8px;
 }
 
+.radius-10 {
+    border-radius: 10px;
+}
+
+.radius-20 {
+    border-radius: 20px;
+}
+
 .circle {
     border-radius: 50%;
 }
@@ -178,13 +346,15 @@ a {
     z-index: 9999;
     background-color: #fff;
 }
+
 .preloader .loading {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    font: 14px arial;
+    font: 14px;
 }
+
 .loader {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
@@ -197,6 +367,7 @@ a {
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
+
 @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
@@ -229,6 +400,7 @@ a {
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
+/* End Background-image */
 
 header {
     padding: 20px;
@@ -671,6 +843,6 @@ footer {
   .sp-footers {display: block;padding: 20px;}
   #wish{margin-bottom: 10px;}
   .lko {padding: 14px;}
-  .lkoo {padding: 6px 14px;}
+  .lkoo {padding: 8px 14px;}
   .memenupoa {display: none;}
 }
