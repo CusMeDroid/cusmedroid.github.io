@@ -7,9 +7,9 @@
         <link rel='apple-touch-icon' href='favicon.ico'>
         <meta name='theme-color' content='#f4f4f4'/>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <meta name="description" content="Cusmedroid is an android studio application development project name. the name was created by iyortml alias suryo dwijayanto. Initially cusmedroid was a custom rom project on android, at that time in 2014 - 2015 cusmedroid was still looking for identity, until now in 2022 - then cusmedroid will be the unique name of me who doesn’t have a team.">
-        <meta name="keywords" content="cusmedroid, iyortml, learn php with cusmedroid, learn php with iyortml, cusmedroid android, cusmedroid developer, developer indonesia, made in indonesia, website, php, html, css, js, xml, java, api, apikey, mysqli, phpmyadmin, android studio, android-studio"/>
-        <meta name="author" content="CusMeDroid">
+        <meta name='description' content='Cusmedroid is an android studio application development project name. the name was created by iyortml alias suryo dwijayanto. Initially cusmedroid was a custom rom project on android, at that time in 2014 - 2015 cusmedroid was still looking for identity, until now in 2022 - then cusmedroid will be the unique name of me who doesn’t have a team.'>
+        <meta name='keywords' content='cusmedroid, iyortml, learn php with cusmedroid, learn php with iyortml, cusmedroid android, cusmedroid developer, developer indonesia, made in indonesia, website, php, html, css, js, xml, java, api, apikey, mysqli, phpmyadmin, android studio, android-studio'/>
+        <meta name='author' content='CusMeDroid'>
         <link rel='stylesheet' type='text/css' href='css/style.css'>
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong'>
         <link rel='stylesheet' href='https://cusmedroid.github.io/fontawesome-4/css/font-awesome.min.css'>
@@ -28,7 +28,7 @@
         <div class='padd-10 Arial white-bg'>
             <div align='right' class='padd-10'>
                 <a title='CusMeDroid' alt='CusMeDroid' class='axz' href=''>CusMeDroid</a>
-                <a title='CusMeDroid' alt='CusMeDroid' class='padd-4' href=''><img src="favicon.ico" class="maxs"></a>
+                <a title='CusMeDroid' alt='CusMeDroid' class='padd-4' href=''><img src='favicon.ico' class='maxs'></a>
                 <!--
                 <a title='Login' alt='Login' href=''><i class='fa fa-user-o axyz' aria-hidden='true'></i></a>
                 <a title='Logout' alt='Logout' href=''><i class='fa fa-sign-out axyz' aria-hidden='true'></i></a>
@@ -37,17 +37,31 @@
         </div>
         <center class='padd-20'>
             <img oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' title='CusMeDroid' alt='CusMeDroid' class='asdn' src='images/cusmedroidlogo.png'>
-            <form class='acsxd martobo' align='left' action='' method='GET' onsubmit='submitFunc()'>
-                <i class='fa fa-search padd-4' aria-hidden='true'></i>
-                <div class="autocomplete">
-                    <input class='sww-input-text' type='search' name='search' id='search' placeholder='Search name...' required>
+            <form autocomplete="off" class='acsxd martobo' align='left' method='GET' onsubmit="submitFunc()">
+                <div class='autocomplete'>
+                    <input class='sww-input-text radius-20' type='search' name='search' id='search' placeholder='Search name...' required>
                 </div>
+                <button class="acsss" type='submit' name='submit' onclick="submitFunc()">
+                    <i class='fa fa-search padd-4' aria-hidden='true'></i>
+                </button>
             </form>
             <p class='padd-16 Trirong gray'>Copyright &copy; <script>document.write(new Date().getFullYear())</script><br>Powered By <a title='CusMeDroid' alt='CusMeDroid' href='' class='black'>CusMeDroid</a><br>
                 <a target='_blank' title='Github CusMeDroid' alt='Github CusMeDroid' href='https://github.com/CusMeDroid'><i class='fa fa-github fa-lg axyz' aria-hidden='true'></i></a> <a target='_blank' title='Youtube CusMeDroid' alt='Youtube CusMeDroid' href='https://www.youtube.com/channel/UCv6qBGNcti7y9g03awMdqBQ'><i class='fa fa-youtube-play fa-lg axyz' aria-hidden='true'></i></a> <a target='_blank' title='Instagram CusMeDroid' alt='Instagram CusMeDroid' href='https://instagram.com/suryodwijayanto'><i class='fa fa-instagram fa-lg axyz' aria-hidden='true'></i></a>
             </p>
         </center>
         <script type='text/javascript' src='https://cusmedroid.github.io/js/disclaimer.js'></script>
-        <script type="text/javascript" src="https://cusmedroid.github.io/js/autoComplete.js"></script>
+        <script type='text/javascript' src='https://cusmedroid.github.io/js/autoComplete.js'></script>
+        <script type='text/javascript'>
+            function submitFunc() {
+                var search = document.getElementById('search');
+                if (search.value < 1) {
+                    alert('Please fill out this field!');
+                } else if(search.value > 1) {
+                    window.open('https://cusmedroid.github.io/'+search.value,'_blank');
+                } else {
+                    window.open('https://cusmedroid.github.io/'+search.value,'_blank');
+                }
+            }
+        </script>
     </body>
 </html>
