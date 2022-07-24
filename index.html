@@ -39,24 +39,15 @@
             <img oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' title='CusMeDroid' alt='CusMeDroid' class='asdn' src='images/cusmedroidlogo.png'>
             <form class='acsxd martobo' align='left' action='' method='GET' onsubmit='submitFunc()'>
                 <i class='fa fa-search padd-4' aria-hidden='true'></i>
-                <input class='sww-input-text' type='search' name='search' id='search' placeholder='Search name...' required>
+                <div class="autocomplete">
+                    <input class='sww-input-text' type='search' name='search' id='search' placeholder='Search name...' required>
+                </div>
             </form>
-            <script type='text/javascript'>
-                function submitFunc() {
-                    var search = document.getElementById('search');
-                    if (search.value < 1) {
-                        alert('Please fill out this field!');
-                    } else if(search.value > 1) {
-                        window.open('https://cusmedroid.github.io/'+search.value);
-                    } else {
-                        window.open('https://cusmedroid.github.io/'+search.value);
-                    }
-                }
-            </script>
             <p class='padd-16 Trirong gray'>Copyright &copy; <script>document.write(new Date().getFullYear())</script><br>Powered By <a title='CusMeDroid' alt='CusMeDroid' href='' class='black'>CusMeDroid</a><br>
                 <a target='_blank' title='Github CusMeDroid' alt='Github CusMeDroid' href='https://github.com/CusMeDroid'><i class='fa fa-github fa-lg axyz' aria-hidden='true'></i></a> <a target='_blank' title='Youtube CusMeDroid' alt='Youtube CusMeDroid' href='https://www.youtube.com/channel/UCv6qBGNcti7y9g03awMdqBQ'><i class='fa fa-youtube-play fa-lg axyz' aria-hidden='true'></i></a> <a target='_blank' title='Instagram CusMeDroid' alt='Instagram CusMeDroid' href='https://instagram.com/suryodwijayanto'><i class='fa fa-instagram fa-lg axyz' aria-hidden='true'></i></a>
             </p>
         </center>
-        <script type='text/javascript' src='https://cusmedroid.github.io/js/disclaimer.js'></script>-
+        <script type='text/javascript' src='https://cusmedroid.github.io/js/disclaimer.js'></script>
+        <script type="text/javascript" src="https://cusmedroid.github.io/js/autoComplete.js"></script>
     </body>
 </html>
