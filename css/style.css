@@ -969,12 +969,6 @@ footer {
     width: 600px;
     background: #FFF;
 }
-.sww-input-text {
-    width: 100%;
-    padding: 6px 10px;
-    border: none;
-    font-size: 16px;
-}
 .axz {
     padding: 4px;
     color: #777;
@@ -991,6 +985,19 @@ footer {
 }
 .axyz:hover {
     color: #111;
+}
+
+.acsss {
+    border-radius: 20px;
+    padding: 4px 8px;
+    border: 2px solid #111;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.acsss:hover {
+    background: #111;
+    color: #fff;
 }
 
 /* Profile Main */
@@ -1059,9 +1066,16 @@ footer {
 
 /* Auto Complete */
 .autocomplete {
-  width: 94%;
+  width: 90%;
   position: relative;
   display: inline-block;
+}
+
+.sww-input-text {
+    width: 100%;
+    padding: 6px 10px;
+    border: none;
+    font-size: 16px;
 }
 
 .autocomplete-items {
