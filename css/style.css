@@ -990,12 +990,13 @@ footer {
 .acsss {
     border-radius: 20px;
     padding: 4px 8px;
-    border: 2px solid #111;
+    border: 1px solid transparent;
     cursor: pointer;
     transition-duration: 0.5s;
 }
 
 .acsss:hover {
+    border: 1px solid #111;
     background: #111;
     color: #fff;
 }
@@ -1066,7 +1067,7 @@ footer {
 
 /* Auto Complete */
 .autocomplete {
-  width: 90%;
+  width: 92%;
   position: relative;
   display: inline-block;
 }
@@ -1175,9 +1176,9 @@ footer {
 @media screen and (max-width: 560px) {
     .card-img {height: 230px;}
     .asdn {width: 220px;}
+  .autocomplete{width: 85%;}
 }
 
-@media screen and (max-width: 375px) {
-    .card-img {height: 150px;}
-    .sww-input-text {width: 80%;}
+@media screen and (max-width: 380px) {
+  .autocomplete{width: 75%;}
 }
