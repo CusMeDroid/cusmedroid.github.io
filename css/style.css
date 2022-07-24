@@ -391,6 +391,14 @@ a {
     padding: 4px;
 }
 
+/*
+* Please do not remove this
+* 7/24/2022 6:10 PM
+* Template by CusMeDroid
+* IyoRTML
+* Suryo DwiJayanto
+*/
+
 .sp-footers {
     display: none;
 }
@@ -485,7 +493,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 9999;
+    z-index: 4;
     background-color: #fff;
 }
 
@@ -563,6 +571,14 @@ nav {
 .nav {
     float: right;
 }
+
+/*
+* Please do not remove this
+* 7/24/2022 6:10 PM
+* Template by CusMeDroid
+* IyoRTML
+* Suryo DwiJayanto
+*/
 
 .nav a {
     color: white;
@@ -741,6 +757,14 @@ nav {
     padding: 20px;
     display: none;
 }
+
+/*
+* Please do not remove this
+* 7/24/2022 6:10 PM
+* Template by CusMeDroid
+* IyoRTML
+* Suryo DwiJayanto
+*/
 
 footer {
     padding: 50px;
@@ -946,8 +970,8 @@ footer {
     background: #FFF;
 }
 .sww-input-text {
-    width: 90%;
-    padding: 4px;
+    width: 100%;
+    padding: 6px 10px;
     border: none;
     font-size: 16px;
 }
@@ -1014,6 +1038,14 @@ footer {
   padding-right: 10px;
 }
 
+/*
+* Please do not remove this
+* 7/24/2022 6:10 PM
+* Template by CusMeDroid
+* IyoRTML
+* Suryo DwiJayanto
+*/
+
 .mppf {
     width: 100%;
     height: 200px;
@@ -1024,6 +1056,41 @@ footer {
     margin-bottom: -10px;
 }
 /* End Profile Main */
+
+/* Auto Complete */
+.autocomplete {
+  width: 94%;
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 4;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+/* End Auto Complete */
 
 /* Responsive Tablet */
 @media screen and (max-width: 1040px) {
@@ -1042,6 +1109,14 @@ footer {
     #musicpl {top: 60%;}
     .column3{width: 100%;padding: 8px 4px;}
 }
+
+/*
+* Please do not remove this
+* 7/24/2022 6:10 PM
+* Template by CusMeDroid
+* IyoRTML
+* Suryo DwiJayanto
+*/
 
 /* Responsive Mobile */
 @media screen and (max-width: 800px) {
@@ -1080,6 +1155,7 @@ footer {
   .lkoo {padding: 4px 14px;}
   .memenupoa {display: none;}
   .acsxd {width: 90%;}
+  .autocomplete{width: 90%;}
 }
 
 @media screen and (max-width: 560px) {
