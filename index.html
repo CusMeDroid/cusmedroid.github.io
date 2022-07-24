@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
     <head>
-        <meta charset="UTF-8">
+        <meta charset='UTF-8'>
         <title>CusMeDroid</title>
-        <link rel="icon" type="image/x-icon" href="icon/logo.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='icon' type='image/x-icon' href='favicon.ico'>
+        <link rel='apple-touch-icon' href='favicon.ico'>
+        <meta name='theme-color' content='#f4f4f4'/>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
         <meta name="description" content="Cusmedroid is an android studio application development project name. the name was created by iyortml alias suryo dwijayanto. Initially cusmedroid was a custom rom project on android, at that time in 2014 - 2015 cusmedroid was still looking for identity, until now in 2022 - then cusmedroid will be the unique name of me who doesn’t have a team.">
         <meta name="keywords" content="cusmedroid, iyortml, learn php with cusmedroid, learn php with iyortml, cusmedroid android, cusmedroid developer, developer indonesia, made in indonesia, website, php, html, css, js, xml, java, api, apikey, mysqli, phpmyadmin, android studio, android-studio"/>
         <meta name="author" content="CusMeDroid">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Arial">
-        <link rel="stylesheet" href="https://cusmedroid.github.io/fontawesome-4/css/font-awesome.min.css">
-        <script type="text/javascript" src="https://cusmedroid.github.io/js/jquery-3.6.0.min.js"></script>
+        <link rel='stylesheet' type='text/css' href='css/style.css'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong'>
+        <link rel='stylesheet' href='https://cusmedroid.github.io/fontawesome-4/css/font-awesome.min.css'>
+        <script type='text/javascript' src='https://cusmedroid.github.io/js/jquery-3.6.0.min.js'></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH5ZCJD408"></script>
+        <script async src='https://www.googletagmanager.com/gtag/js?id=G-XH5ZCJD408'></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -22,207 +24,38 @@
           gtag('config', 'G-XH5ZCJD408');
         </script>
     </head>
-    <body id="myCopyright">
-        <header id="myBg"></header>
-        <center style="margin-top:-80px;margin-bottom:10px;">
-            <img oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' alt="CusMeDroid" title="CusMeDroid" style="width:160px;height:160px;" src="icon/logo.png">
-            <h1 class="audiowide pato pabo">CusMeDroid</h1>
-            <div class="mkso">
-                <a target="_blank" alt="Suryo DwiJayanto Instagram" target="_blank" title="Suryo DwiJayanto Instagram" href="https://instagram.com/suryodwijayanto" class="rbtn"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a target="_blank" alt="CusMeDroid Github" target="_blank" title="CusMeDroid Github" href="https://github.com/CusMeDroid" class="rbtn"><i class="fa fa-github" aria-hidden="true"></i></a>
-                <a target="_blank" alt="Subscribe" target="_blank" title="Subscribe" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick-subscriptions&business=iyortml%40gmail%2ecom&lc=ZA&item_name=Subscribe&item_number=7162022&src=1&a3=10%2e00&p3=1&t3=M&currency_code=USD&bn=PP%2dSubscriptionsBF%3abtn_subscribe_SM%2egif%3aNonHosted" class="rbtn"><i class="fa fa-paypal" aria-hidden="true"></i></a>
+    <body id='myCopyright' class='mybasebg'>
+        <div class='padd-10 Arial white-bg'>
+            <div align='right' class='padd-10'>
+                <a title='CusMeDroid' alt='CusMeDroid' class='axz' href=''>CusMeDroid</a>
+                <a title='CusMeDroid' alt='CusMeDroid' class='padd-4' href=''><img src="favicon.ico" class="maxs"></a>
+                <!--
+                <a title='Login' alt='Login' href=''><i class='fa fa-user-o axyz' aria-hidden='true'></i></a>
+                <a title='Logout' alt='Logout' href=''><i class='fa fa-sign-out axyz' aria-hidden='true'></i></a>
+                -->
             </div>
+        </div>
+        <center class='padd-20'>
+            <img oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' title='CusMeDroid' alt='CusMeDroid' class='asdn' src='icon/cusmedroidlogo.png'>
+            <form class='acsxd martobo' align='left' method='POST' onsubmit='submitFunc()'>
+                <i class='fa fa-search padd-4' aria-hidden='true'></i>
+                <input class='sww-input-text' type='search' name='search' id='search' placeholder='Search name...' required>
+            </form>
+            <script type='text/javascript'>
+                function submitFunc() {
+                    var search = document.getElementById('search');
+                    if (search.value < 1) {
+                        alert('Please fill out this field!');
+                    } else {
+                        window.open(location+search.value,'_blank');
+                    }
+                    window.close();
+                }
+            </script>
+            <p class='padd-16 Trirong gray'>Copyright &copy; <script>document.write(new Date().getFullYear())</script><br>Powered By <a title='CusMeDroid' alt='CusMeDroid' href='' class='black'>CusMeDroid</a><br>
+                <a target='_blank' title='Github CusMeDroid' alt='Github CusMeDroid' href='https://github.com/CusMeDroid'><i class='fa fa-github fa-lg axyz' aria-hidden='true'></i></a> <a target='_blank' title='Youtube CusMeDroid' alt='Youtube CusMeDroid' href='https://www.youtube.com/channel/UCv6qBGNcti7y9g03awMdqBQ'><i class='fa fa-youtube-play fa-lg axyz' aria-hidden='true'></i></a> <a target='_blank' title='Instagram CusMeDroid' alt='Instagram CusMeDroid' href='https://instagram.com/suryodwijayanto'><i class='fa fa-instagram fa-lg axyz' aria-hidden='true'></i></a>
+            </p>
         </center>
-        <div class="main" id="table_posting">
-            <br>
-            <div id="btnContainer">
-              <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
-              <button class="btn piactive" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
-            </div>
-            <br>
-            <div class="row">
-                <!-- Posting -->
-                <div class="column">
-                    <div class="card">
-                      <img oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' class="card-img" alt="" title="" src="images/cusme_simplesqlite.png">
-                      <div class="card-title sofia"><b>Simple SQLite</b></div>
-                      <div class="card-container">
-                        <div class="row">
-                            <div class="card-column">
-                                <p class="pabo"><b>2022-07-16</b></p>
-                            </div>
-                            <div class="card-column">
-                                <p align="right">
-                                    <a target="_blank" alt="View Simple Profile" title="View Simple Profile" href="https://cusmedroid.github.io/android-studio/" class="mbtn"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a target="_blank" alt="Buy Simple Profile" title="Buy Simple Profile" href="https://wa.me/p/5008373142625661/6281932671715" class="mbtn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                </p>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <!-- Posting -->
-                <div class="column">
-                    <div class="card">
-                      <img oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' class="card-img" alt="" title="" src="images/cusme_simpleprofile.png">
-                      <div class="card-title sofia"><b>Simple Profile</b></div>
-                      <div class="card-container">
-                        <div class="row">
-                            <div class="card-column">
-                                <p class="pabo"><b>2022-07-15</b></p>
-                            </div>
-                            <div class="card-column">
-                                <p align="right">
-                                    <a target="_blank" alt="View Simple Profile" title="View Simple Profile" href="https://cusmedroid.github.io/android-studio/" class="mbtn"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a target="_blank" alt="Download Simple Profile" title="Download Simple Profile" href="https://github.com/CusMeDroid/android-studio/tree/main/Profile" class="mbtn"><i class="fa fa-download" aria-hidden="true"></i></a>
-                                </p>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <!-- Posting -->
-                <div class="column">
-                    <div class="card">
-                      <img oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' class="card-img" alt="" title="" src="images/cusme_j-shop.png">
-                      <div class="card-title sofia"><b>J-Shop</b></div>
-                      <div class="card-container">
-                        <div class="row">
-                            <div class="card-column">
-                                <p class="pabo"><b>2022-07-14</b></p>
-                            </div>
-                            <div class="card-column">
-                                <p align="right">
-                                    <a target="_blank" alt="View J-Shop" title="View J-Shop" href="https://cusmedroid.github.io/j-shop/" class="mbtn"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a target="_blank" alt="Buy J-Shop" target="_blank" title="Buy J-Shop" href="https://wa.me/p/7659920640716952/6281932671715" class="mbtn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                </p>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <!-- Posting -->
-                <div class="column">
-                    <div class="card">
-                      <img oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' class="card-img" alt="" title="" src="images/cusme_ip2.png">
-                      <div class="card-title sofia"><b>IP2Location Contest</b></div>
-                      <div class="card-container">
-                        <div class="row">
-                            <div class="card-column">
-                                <p class="pabo"><b>2022-07-14</b></p>
-                            </div>
-                            <div class="card-column">
-                                <p align="right">
-                                    <a target="_blank" alt="View IP2Location Contest" title="View IP2Location Contest" href="https://cusmedroid.github.io/ip2location-contest/" class="mbtn"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a target="_blank" alt="Download IP2Location Contest" title="Download IP2Location Contest" href="https://github.com/CusMeDroid/ip2location-contest/archive/refs/heads/main.zip" class="mbtn"><i class="fa fa-download" aria-hidden="true"></i></a>
-                                </p>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <!-- Row -->
-            </div>
-        </div>
-        <div class="main" id="msugest">
-            <h1 id="sugesto" class="titlehome audiowide"><i class="fa fa-youtube-play" aria-hidden="true"></i> Youtube</h1>
-            <div class="row">
-                <!-- Youtube -->
-                <div class="column2 patobo">
-                    <div class="card">
-                        <iframe class="card-img" src="https://www.youtube.com/embed/nCIbVxssqLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="card-title sofia"><b>Activity</b></div>
-                        <div class="card-container">
-                            <p class="pabo"><b>#androidstudio</b></p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Youtube -->
-                <div class="column2 patobo">
-                    <div class="card">
-                        <iframe class="card-img" src="https://www.youtube.com/embed/tJwFrVzX2wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="card-title sofia"><b>WiFi</b></div>
-                        <div class="card-container">
-                            <p class="pabo"><b>#androidstudio</b></p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Youtube -->
-                <div class="column2 patobo">
-                    <div class="card">
-                        <iframe class="card-img" src="https://www.youtube.com/embed/dNXGp-pPXBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="card-title sofia"><b>Bluetooth</b></div>
-                        <div class="card-container">
-                            <p class="pabo"><b>#androidstudio</b></p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Youtube -->
-                <div class="column2 patobo">
-                    <div class="card">
-                        <iframe class="card-img" src="https://www.youtube.com/embed/INfprcPZU6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="card-title sofia"><b>Splash Screen</b></div>
-                        <div class="card-container">
-                            <p class="pabo"><b>#androidstudio</b></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <div class="row">
-              <div class="column3 trump">
-                <h1 class="audiowide">CusMeDroid</h1>
-                <p id="description" class="sofia pato">&copy; 2022 Powered By <a style="color: white;" alt="CusMeDroid" title="CusMeDroid" href="">CusMeDroid</a></p>
-              </div>
-              <div class="column3">
-                  <div class="column2">
-                    <h1 class="audiowide">Sponsor</h1>
-                    <p id="description" class="sofia pato"><a target="_blank" style="color: white;" title="iExperimen" alt="iExperimen" href="https://iexperimen.github.io">iExperimen</a></p>
-                    <p id="description" class="sofia pato"><a target="_blank" style="color: white;" title="MWF Album" alt="MWF Album" href="https://google.com/search?q=MWFAlbum">MWF Album</a></p>
-                    <p id="description" class="sofia pato"><a target="_blank" style="color: white;" title="IyoRTML" alt="IyoRTML" href="https://google.com/search?q=iyortml">IyoRTML</a></p>
-                    <p id="description" class="sofia pato pabo"><a target="_blank" style="color: white;" title="Radio Tip Masa Lampau" alt="Radio Tip Masa Lampau" href="https://google.com/search?q=Radio+Tip+Masa+Lampau">Radio Tip Masa Lampau</a></p>
-                  </div>
-                  <div class="column2">
-                    <h1 class="audiowide">Contact</h1>
-                    <p id="description" class="sofia pato"><a target="_blank" style="color: white;" title="Send Mail" alt="Send Mail" href="mailto:iyortml@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> IyoRTML</a></p>
-                    <p id="description" class="sofia pato"><a target="_blank" style="color: white;" title="Call" alt="Call" href="tel:+6285772757932"><i class="fa fa-phone" aria-hidden="true"></i> +62 8577 2757 932</a></p>
-                  </div>
-              </div>
-            </div>
-        </footer>
-        <script type="text/javascript" src="https://cusmedroid.github.io/js/disclaimer.js"></script>
-        <script type="text/javascript">
-            // Get the elements with class="column"
-            var elements = document.getElementsByClassName("column");
-
-            // Declare a loop variable
-            var pi;
-
-            // List View
-            function listView() {
-                for (pi = 0; pi < elements.length; pi++) {
-                    elements[pi].style.width = "100%";
-                }
-            }
-
-            // Grid View
-            function gridView() {
-                for (pi = 0; pi < elements.length; pi++) {
-                    elements[pi].style.width = "50%";
-                }
-            }
-
-            /* Optional: Add active class to the current button (highlight it) */
-            var container = document.getElementById("btnContainer");
-            var btns = container.getElementsByClassName("btn");
-            for (var pi = 0; pi < btns.length; pi++) {
-                btns[pi].addEventListener("click", function() {
-                    var current = document.getElementsByClassName("piactive");
-                    current[0].className = current[0].className.replace(" piactive", "");
-                    this.className += " piactive";
-                });
-            }
-        </script>
+        <script type='text/javascript' src='https://cusmedroid.github.io/js/disclaimer.js'></script>-
     </body>
 </html>
