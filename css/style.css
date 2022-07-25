@@ -38,6 +38,10 @@ a {
     text-decoration: none;
 }
 
+pre {
+    overflow: auto;
+}
+
 /* Color */
 .red {
     color: #f44336 !important; /* Red */
@@ -411,6 +415,12 @@ a {
     padding: 4px;
 }
 
+.palerto {
+    padding: 6px;
+    float: left;
+    margin: 4px;
+}
+
 .patobo {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -418,6 +428,10 @@ a {
 
 .martobo {
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.marbo {
     margin-bottom: 10px;
 }
 
@@ -1001,50 +1015,123 @@ footer {
     color: #fff;
 }
 
-/* Profile Main */
-.sidenav {
-  height: 100%;
-  width: 250px;
+/* Web Main */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f4f4f4;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  padding: 10px;
+  height: 100%;
+  overflow: auto;
 }
 
-.lmnba{
-    height: 100%;
-}
-
-.mkimg {
-    width: 100%;
-    padding: 10px;
-}
-
-.sidenav a {
-  border-radius: 20px;
-  padding: 8px 16px;
-  margin-bottom: 8px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #FFF;
+.sidebar a {
   display: block;
-  transition: 0.3s;
+  color: black;
+  padding: 16px;
+  transition-duration: 0.5s;
+}
+ 
+.sidebar a.sdactive {
+  background-color: #FF6A00;
+  color: white;
 }
 
-.sidenav a:hover {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  background: #f1f1f1;
-  color: #111;
+.sidebar a:hover:not(.sdactive) {
+  background-color: #AAA;
+  color: white;
 }
 
-.pf-main {
-  margin-left: 250px;
-  font-size: 28px;
-  padding-top: 10px;
-  padding-right: 10px;
+.docs-content {
+  margin-left: 200px;
 }
+
+/* Collapse Main */
+.collapsible {
+  background-color: #FF6A00d0;
+  color: white;
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition-duration: 0.5s;
+}
+
+.clpactive, .collapsible:hover {
+  background-color: #FF6A00;
+}
+
+.collapsible:after {
+  content: '\25BC';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.clpactive:after {
+  content: "\25B2";
+}
+
+.clp-content {
+  max-height: 0;
+  height: auto;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.clp-content a {
+    display: block;
+    padding: 16px;
+    color: #111;
+    transition-duration: 0.5s;
+}
+
+.clp-content a.sdactive {
+  background-color: #FF6A00;
+  color: white;
+}
+
+.clp-content a:hover:not(.sdactive) {
+  background-color: #AAA;
+  color: white;
+}
+
+/* Collapse Mobile */
+.clp-content-mobile {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  display: none;
+}
+
+.clp-content-mobile a {
+    display: block;
+    padding: 16px;
+    color: #111;
+    transition-duration: 0.5s;
+}
+
+.clp-content-mobile a.sdactive {
+  background-color: #FF6A00;
+  color: white;
+}
+
+.clp-content-mobile a:hover:not(.sdactive) {
+  background-color: #AAA;
+  color: white;
+}
+
+.aclp {
+    display: none;
+}
+/* End Web Main */
 
 /*
 * Please do not remove this
@@ -1053,17 +1140,6 @@ footer {
 * IyoRTML
 * Suryo DwiJayanto
 */
-
-.mppf {
-    width: 100%;
-    height: 200px;
-}
-
-.maxs {
-    width: 32px;
-    margin-bottom: -10px;
-}
-/* End Profile Main */
 
 /* Auto Complete */
 .autocomplete {
@@ -1104,6 +1180,10 @@ footer {
 .autocomplete-active {
   background-color: DodgerBlue !important; 
   color: #ffffff; 
+}
+.maxs {
+    width: 32px;
+    margin-bottom: -10px;
 }
 /* End Auto Complete */
 
@@ -1171,12 +1251,22 @@ footer {
   .memenupoa {display: none;}
   .acsxd {width: 90%;}
   .autocomplete{width: 90%;}
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  .docs-content {margin-left: 0;}
 }
 
 @media screen and (max-width: 560px) {
-    .card-img {height: 230px;}
-    .asdn {width: 220px;}
+  .card-img {height: 230px;}
+  .asdn {width: 220px;}
   .autocomplete{width: 85%;}
+  .sidebar {display: none;}
+  .aclp {display: block;}
+  .clp-content-mobile {display: block;}
 }
 
 @media screen and (max-width: 380px) {
