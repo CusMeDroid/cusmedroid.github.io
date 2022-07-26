@@ -1,6 +1,6 @@
 /*
 * Please do not remove this
-* 7/24/2022 6:10 PM
+* 7/27/2022 5:20 AM
 * Template by CusMeDroid
 * IyoRTML
 * Suryo DwiJayanto
@@ -341,6 +341,7 @@ pre {
 
 .green-grad-bg-btn {
   background: linear-gradient(#00FF62, #57CBAB);
+  cursor: pointer;
 }
 
 .green-grad-bg-btn:hover {
@@ -354,6 +355,7 @@ pre {
 
 .orange-grad-bg-btn {
   background: linear-gradient(#FF6A00, #CB9557);
+  cursor: pointer;
 }
 
 .orange-grad-bg-btn:hover {
@@ -367,6 +369,7 @@ pre {
 
 .violet-grad-bg-btn {
   background: linear-gradient(#9921D5, #6442A0);
+  cursor: pointer;
 }
 
 .violet-grad-bg-btn:hover {
@@ -380,6 +383,7 @@ pre {
 
 .magenta-grad-bg-btn {
   background: linear-gradient(#FF00FF, #A346A3);
+  cursor: pointer;
 }
 
 .magenta-grad-bg-btn:hover {
@@ -435,12 +439,28 @@ pre {
     margin-bottom: 10px;
 }
 
+.radius-5 {
+    border-radius: 5px;
+}
+
 .radius-10 {
     border-radius: 10px;
 }
 
+.radius-15 {
+    border-radius: 15px;
+}
+
 .radius-20 {
     border-radius: 20px;
+}
+
+.radius-25 {
+    border-radius: 25px;
+}
+
+.radius-30 {
+    border-radius: 30px;
 }
 
 .circle {
