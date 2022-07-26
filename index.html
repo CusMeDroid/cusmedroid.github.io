@@ -27,7 +27,7 @@
     <body id='myCopyright' class='mybasebg'>
         <div class='padd-10 Arial white-bg'>
             <div align='right' class='padd-10'>
-                <a title='Docs CusMeDroid' alt='Docs CusMeDroid' class='axz' href='https://cusmedroid.github.io/docs'>Docs</a>
+                <a title='CusMeDroid' alt='CusMeDroid' class='axz' href='docs'>Docs</a>
                 <a title='CusMeDroid' alt='CusMeDroid' class='padd-4' href=''><img src='favicon.ico' class='maxs'></a>
                 <!--
                 <a title='Login' alt='Login' href=''><i class='fa fa-user-o axyz' aria-hidden='true'></i></a>
@@ -37,14 +37,14 @@
         </div>
         <center class='padd-20'>
             <img oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' title='CusMeDroid' alt='CusMeDroid' class='asdn' src='images/cusmedroidlogo.png'>
-            <form autocomplete="off" class='acsxd martobo' align='left' method='GET' onsubmit="submitFunc()">
+            <div class='acsxd martobo' align='left'>
                 <div class='autocomplete'>
-                    <input class='sww-input-text radius-20' type='search' name='search' id='search' placeholder='Search name...' required>
+                    <input autocomplete='off' class='sww-input-text radius-20' type='search' name='search' id='search' placeholder='Search name...' required>
                 </div>
-                <button class="acsss" type='submit' name='repositories' value='CusMeDroid' onclick="submitFunc()">
+                <button class='acsss' type='submit' name='repositories' value='CusMeDroid' onclick='submitFunc()'>
                     <i class='fa fa-search padd-4' aria-hidden='true'></i>
                 </button>
-            </form>
+            </div>
             <p class='padd-16 Trirong gray'>Copyright &copy; <script>document.write(new Date().getFullYear())</script><br>Powered By <a title='CusMeDroid' alt='CusMeDroid' href='' class='black'>CusMeDroid</a><br>
                 <a target='_blank' title='Github CusMeDroid' alt='Github CusMeDroid' href='https://github.com/CusMeDroid'><i class='fa fa-github fa-lg axyz' aria-hidden='true'></i></a> <a target='_blank' title='Youtube CusMeDroid' alt='Youtube CusMeDroid' href='https://www.youtube.com/channel/UCv6qBGNcti7y9g03awMdqBQ'><i class='fa fa-youtube-play fa-lg axyz' aria-hidden='true'></i></a> <a target='_blank' title='Instagram CusMeDroid' alt='Instagram CusMeDroid' href='https://instagram.com/suryodwijayanto'><i class='fa fa-instagram fa-lg axyz' aria-hidden='true'></i></a>
             </p>
@@ -52,14 +52,21 @@
         <script type='text/javascript' src='https://cusmedroid.github.io/js/disclaimer.js'></script>
         <script type='text/javascript' src='https://cusmedroid.github.io/js/autoComplete.js'></script>
         <script type='text/javascript'>
+            var repositories = ['guide/audio','guide/video',
+              'home','docs','roadmap',
+              'cv','cv/suryodwijayanto','cv/sahrul','cv/mohjakayulianto',
+              'android-studio','ip2location-contest','j-shop'
+            ];
+            autocomplete(document.getElementById('search'), repositories);
+            /* Function button click */
             function submitFunc() {
                 var search = document.getElementById('search');
                 if (search.value < 1) {
                     alert('Please fill out this field!');
                 } else if(search.value > 1) {
-                    window.open('https://cusmedroid.github.io/'+search.value,'_blank');
+                    window.location.href = search.value;
                 } else {
-                    window.open('https://cusmedroid.github.io/'+search.value,'_blank');
+                    window.location.href = search.value;
                 }
             }
         </script>
