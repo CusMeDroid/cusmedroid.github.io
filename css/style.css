@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, p {
 
 button {
     background: transparent;
+    cursor: pointer;
     border: none;
 }
 
@@ -164,17 +165,14 @@ pre {
 
 /* Font size */
 .size-12 {
-    size: 12px;
     font-size: 12px;
 }
 
 .size-14 {
-    size: 14px;
     font-size: 14px;
 }
 
 .size-16 {
-    size: 16px;
     font-size: 16px;
 }
 
@@ -184,47 +182,38 @@ pre {
 }
 
 .size-20 {
-    size: 20px;
     font-size: 20px;
 }
 
 .size-22 {
-    size: 22px;
     font-size: 22px;
 }
 
 .size-24 {
-    size: 24px;
     font-size: 24px;
 }
 
 .size-26 {
-    size: 26px;
     font-size: 26px;
 }
 
 .size-28 {
-    size: 28px;
     font-size: 28px;
 }
 
 .size-30 {
-    size: 30px;
     font-size: 30px;
 }
 
 .size-32 {
-    size: 32px;
     font-size: 32px;
 }
 
 .size-34 {
-    size: 34px;
     font-size: 34px;
 }
 
 .size-36 {
-    size: 36px;
     font-size: 36px;
 }
 /* End Font Size */
@@ -430,9 +419,21 @@ pre {
     padding-bottom: 10px;
 }
 
+.pato {
+    padding-top: 10px;
+}
+
+.pabo {
+    padding-bottom: 10px;
+}
+
 .martobo {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.marto {
+    margin-top: 10px;
 }
 
 .marbo {
@@ -1208,6 +1209,38 @@ footer {
     margin-bottom: -10px;
 }
 /* End Auto Complete */
+
+/* News css 27/7/22 home */
+.home-bottom {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-btn {
+    border-radius: 25px;
+    border: 2px solid #FF6A00;
+    padding: 4px 12px;
+    transition-duration: 0.5s;
+    color: #FF6A00;
+}
+
+.home-btn:hover {
+    background: #FF6A00;
+    color: #FFF;
+}
+
+.home-btn span {
+    display: none;
+}
+
+.home-btn:hover span {
+    display: inline;
+}
 
 /* Responsive Tablet */
 @media screen and (max-width: 1040px) {
