@@ -1318,7 +1318,7 @@ footer {
 @media screen and (max-width: 560px) {
   .card-img {height: 230px;}
   .asdn {width: 220px;}
-  .autocomplete{width: 88%;}
+  .autocomplete{width: 85%;}
   .sidebar {display: none;}
   .aclp {display: block;}
   .clp-content-mobile {display: block;}
