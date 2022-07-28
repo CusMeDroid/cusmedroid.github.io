@@ -1155,7 +1155,6 @@ footer {
     display: none;
 }
 /* End Web Main */
-
 /*
 * Please do not remove this
 * 7/24/2022 6:10 PM
@@ -1242,6 +1241,28 @@ footer {
     display: inline;
 }
 
+/* Roadmap DB csv */
+.output me-title h1 {
+    font-family: "Audiowide", sans-serif;
+    padding: 12px 0px;
+}
+me-row me-card {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    border-left: 4px solid #FF6A00;
+    background: white;
+    margin-bottom: 4px;
+    font-family: "Trirong", serif;
+}
+me-row {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 10px;
+}
+/* End Roadmap DB csv */
+
 /* Responsive Tablet */
 @media screen and (max-width: 1040px) {
     header {
@@ -1322,6 +1343,7 @@ footer {
   .sidebar {display: none;}
   .aclp {display: block;}
   .clp-content-mobile {display: block;}
+  me-row me-card {width: 50%;}
 }
 
 @media screen and (max-width: 380px) {
