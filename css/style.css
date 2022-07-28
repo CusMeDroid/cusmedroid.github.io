@@ -1349,3 +1349,12 @@ me-row {
 @media screen and (max-width: 380px) {
   .autocomplete{width: 80%;}
 }
+
+@media screen and (max-width: 302px) {
+  .autocomplete{width: 75%;}
+  .asdn {width: 60%;}
+}
+
+@media screen and (max-width: 255px) {
+  .autocomplete{width: 60%;}
+}
