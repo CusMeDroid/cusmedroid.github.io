@@ -72,7 +72,12 @@
                         window.location.href = search.value;
                     }
                 } else {
-                    window.location.href = search.value;
+                    if (search.value == 'kominfo' || search.value == 'kominfo.go.id' || search.value == 'kominfo.com' || search.value == 'https://kominfo.go.id' || 
+                        search.value == 'http://kominfo.go.id' || search.value == 'http://www.kominfo.go.id' || search.value == 'https://www.kominfo.go.id' || search.value == 'www.kominfo.go.id') {
+                        window.location.href = 'block-sites';
+                    } else {
+                        window.location.href = search.value;
+                    }
                 }
             }
         </script>
