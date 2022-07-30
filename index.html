@@ -54,7 +54,9 @@
             var repositories = ['guide/html','guide/css','guide/js','guide/audio','guide/video',
               'home','docs','roadmap',
               'cv','cv/suryodwijayanto','cv/sahrul','cv/mohjakayulianto',
-              'android-studio','ip2location-contest','j-shop','blog','desktop','kominfo'
+              'android-studio','ip2location-contest','j-shop','blog','desktop',
+              'kominfo','kominfo.go.id','kominfo.com','https://kominfo.go.id','http://kominfo.go.id','http://www.kominfo.go.id',
+              'https://www.kominfo.go.id', 'www.kominfo.go.id'
             ];
             autocomplete(document.getElementById('search'), repositories);
             /* Function button click */
@@ -63,7 +65,12 @@
                 if (search.value < 1) {
                     alert('Please fill out this field!');
                 } else if(search.value > 1) {
-                    window.location.href = search.value;
+                    if (search.value == 'kominfo' || search.value == 'kominfo.go.id' || search.value == 'kominfo.com' || search.value == 'https://kominfo.go.id' || 
+                        search.value == 'http://kominfo.go.id' || search.value == 'http://www.kominfo.go.id' || search.value == 'https://www.kominfo.go.id' || search.value == 'www.kominfo.go.id') {
+                        window.location.href = 'block-sites';
+                    } else {
+                        window.location.href = search.value;
+                    }
                 } else {
                     window.location.href = search.value;
                 }
