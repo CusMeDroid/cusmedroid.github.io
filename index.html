@@ -50,24 +50,6 @@
         </center>
         <script type='text/javascript' src='js/disclaimer.js'></script>
         <script type='text/javascript' src='js/autoComplete.js'></script>
-        <script type='text/javascript'>
-            var repositories = ['guide/html','guide/css','guide/js','guide/audio','guide/video',
-              'home','docs','roadmap','privacy',
-              'cv','cv/suryodwijayanto','cv/sahrul','cv/mohjakayulianto',
-              'android-studio','ip2location-contest','j-shop','blog','desktop'
-            ];
-            autocomplete(document.getElementById('search'), repositories);
-            /* Function button click */
-            function submitFunc() {
-                var search = document.getElementById('search');
-                if (search.value < 1) {
-                    alert('Please fill out this field!');
-                } else if(search.value > 1) {
-                    window.location.href = search.value;
-                } else {
-                    window.location.href = search.value;
-                }
-            }
-        </script>
+        <script type='text/javascript' src='js/search_engine.js'></script>
     </body>
 </html>
