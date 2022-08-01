@@ -13,7 +13,7 @@
   "scope": "/",
   "id": "myCopyright",
   "start_url": "/index.html",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "any",
   "theme_color": "white",
   "background_color": "gray",
