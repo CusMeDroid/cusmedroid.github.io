@@ -23,10 +23,9 @@
   "description": "Cusmedroid is an android studio application development project name. the name was created by iyortml alias suryo dwijayanto. Initially cusmedroid was a custom rom project on android, at that time in 2014 - 2015 cusmedroid was still looking for identity, until now in 2022 - then cusmedroid will be the unique name of me who doesn’t have a team.",
   "screenshots": [
     {
-      "src": "favicon.ico",
+      "src": "icon/screenshoot.jpg",
       "type": "image/jpg",
       "sizes": "320x320"
     }
   ]
 }
-  
