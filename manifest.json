@@ -1,6 +1,6 @@
 {
   "lang": "en",
-  "dir": "ltr",
+  "dir": "auto",
   "name": "CusMeDroid",
   "short_name": "CusMe",
   "icons": [
@@ -14,7 +14,7 @@
   "id": "myCopyright",
   "start_url": "/index.html",
   "display": "fullscreen",
-  "orientation": "landscape",
+  "orientation": "any",
   "theme_color": "white",
   "background_color": "gray",
   "shortcuts": [
