@@ -1,0 +1,32 @@
+{
+  "short_name": "CusMeDroid",
+  "name": "CusMeDroid",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://cusmedroid.github.io/",
+  "display": "standalone",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "CusMeDroid",
+      "short_name": "CusMeDroid",
+      "description": "Cusmedroid is an android studio application development project name. the name was created by iyortml alias suryo dwijayanto. Initially cusmedroid was a custom rom project on android, at that time in 2014 - 2015 cusmedroid was still looking for identity, until now in 2022 - then cusmedroid will be the unique name of me who doesn’t have a team.",
+      "url": "https://cusmedroid.github.io/",
+      "icons": [{ "src": "favicon.ico", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Cusmedroid is an android studio application development project name. the name was created by iyortml alias suryo dwijayanto. Initially cusmedroid was a custom rom project on android, at that time in 2014 - 2015 cusmedroid was still looking for identity, until now in 2022 - then cusmedroid will be the unique name of me who doesn’t have a team.",
+  "screenshots": [
+    {
+      "src": "favicon.ico",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ]
+}
+  
