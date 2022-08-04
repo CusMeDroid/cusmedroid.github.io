@@ -1331,6 +1331,16 @@ me-row {
     right:0;
 }
 
+.column-1 {
+    width: 75%;
+    float: left;
+}
+.column-2 {
+    width: 25%;
+    float: left;
+    padding: 6px;
+}
+
 /* Responsive Tablet */
 @media screen and (max-width: 1040px) {
     header {
@@ -1412,6 +1422,8 @@ me-row {
   .aclp {display: block;}
   .clp-content-mobile {display: block;}
   me-row me-card {width: 50%;}
+  .column-1 {width: 100%;}
+  .column-2 {width: 100%; padding: 0px 14px; margin-bottom: 20px;}
 }
 
 @media screen and (max-width: 380px) {
