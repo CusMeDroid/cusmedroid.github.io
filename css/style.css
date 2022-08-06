@@ -1469,6 +1469,7 @@ me-row {
 
 @media screen and (max-width: 560px) {
   .card-img {height: 230px;}
+  .card-img-offic {height: 230px;}
   .asdn {width: 220px;}
   .autocomplete{width: 85%;}
   .sidebar {display: none;}
