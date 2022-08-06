@@ -748,6 +748,20 @@ nav {
     width: 75%;
 }
 
+.iimgssw {
+    width: 100%;
+    float: left;
+}
+
+.iimgofc {
+    float: right;
+    margin-top: -25%;
+    margin-right: 5%;
+    background: white;
+    padding: 2px 4px;
+    border-radius: 50%;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.5s;
@@ -794,6 +808,45 @@ nav {
 .sukron {
     padding: 20px;
     display: none;
+}
+
+.card-img-offic {
+  border-radius: 20px;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  object-fit: cover;
+  transition-duration: 0.5s;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+
+.mnskd {
+    display: block;
+    transition-duration: 0.5s;
+}
+
+.mnskd:hover {
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+.me-ppf {
+    padding: 4px;
+    margin-top: -40px;
+}
+
+.ppfhmn {
+    width: 56px;
+    height: 56px;
+}
+
+.kajlsm {
+    margin-left: -20px;
+    background: white;
+    padding: 2px 4px;
+    border-radius: 50%;
 }
 
 /*
