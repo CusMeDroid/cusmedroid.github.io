@@ -708,6 +708,12 @@ nav {
     font-size: 24px;
 }
 
+.column0 {
+  float: left;
+  width: 100%;
+  padding: 4px;
+}
+
 .column2 {
   float: left;
   width: 50%;
