@@ -19,7 +19,7 @@ Cusmedroid is an android studio application development project name. the name w
 
 ## Recruit
 want to recruit me in your project?
->**[My CV](https://cusmedroid.github.io/curriculum-vitae/suryodwijayanto/)**
+>**[My CV](https://cusmedroid.github.io/cv/suryodwijayanto/)**
 
 # Open Source Android Studio
 >**[Preview](https://cusmedroid.github.io/android-studio/)**
