@@ -1615,7 +1615,7 @@ me-row {
   .lkoo {padding: 4px 14px;}
   .memenupoa {display: none;}
   .acsxd {width: 90%;}
-  .autocomplete{width: 88%;}
+  .autocomplete{width: 86%;}
   .sidebar {
     width: 100%;
     height: auto;
@@ -1629,7 +1629,7 @@ me-row {
   .card-img {height: 230px;}
   .card-img-offic {height: 230px;}
   .asdn {width: 220px;}
-  .autocomplete{width: 85%;}
+  .autocomplete{width: 83%;}
   .sidebar {display: none;}
   .aclp {display: block;}
   .clp-content-mobile {display: block;}
@@ -1639,11 +1639,11 @@ me-row {
 }
 
 @media screen and (max-width: 380px) {
-  .autocomplete{width: 80%;}
+  .autocomplete{width: 78%;}
 }
 
 @media screen and (max-width: 302px) {
-  .autocomplete{width: 75%;}
+  .autocomplete{width: 73%;}
   .asdn {width: 60%;}
 }
 
