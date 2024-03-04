@@ -864,7 +864,7 @@ nav {
 */
 
 footer {
-    padding: 50px;
+    padding: 30px;
     color: #fff;
     text-align: center;
 }
@@ -1115,11 +1115,12 @@ footer {
 }
 .axz {
     padding: 4px;
-    color: #777;
+    color: #fff;
+    font-size: 20px;
     transition-duration: 0.5s;
 }
 .axz:hover {
-    color: #111;
+    color: #ccc;
 }
 
 .axyz {
@@ -1272,7 +1273,7 @@ footer {
 
 /* Auto Complete */
 .autocomplete {
-  width: 92%;
+  width: 90%;
   position: relative;
   display: inline-block;
 }
@@ -1445,6 +1446,101 @@ me-row {
     padding: 6px;
 }
 
+/* New Theme */
+.main-app {
+    background-image: url('..//wallpaper.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+.sdtxt {
+    text-shadow: 2px 2px #222222;
+}
+.top {
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#mmmain {
+    width: 100%;
+    border-radius: 20px;
+}
+.mmaos {
+    width: 276px;
+    height: 85px;
+}
+.mcrv {
+    width: 56px;
+    height: 56px;
+    float: left;
+    margin: 4px;
+    background: #fff;
+}
+.mcrv:hover {
+    background: #ccc;
+}
+.moimg {
+    width: 100%;
+}
+.bbrtl {
+    width: 30%;
+}
+.bbrtr {
+    width: 70%;
+}
+
+.card-cc {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.5s;
+  width: 100%;
+  border: 1px solid #CCC;
+  border-radius: 20px;
+  background: white;
+  padding: 20px;
+}
+
+.pl-8 {
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+
+.main-content {
+    width: 100%;
+    padding: 10px;
+    margin-top: -30px;
+}
+
+.main-content2 {
+    width: 100%;
+    padding: 10px;
+}
+
+.ldes {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.m-c-d {
+    display: flex;
+    align-items: center;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
 /* Responsive Tablet */
 @media screen and (max-width: 1040px) {
     header {
@@ -1473,6 +1569,17 @@ me-row {
 
 /* Responsive Mobile */
 @media screen and (max-width: 800px) {
+    .m-title{
+        font-size: 38px;
+    }
+    .middle {
+      position: relative;
+      width: 100%;
+      top: 35%;
+      left: 0%;
+      transform: none;
+      text-align: center;
+    }
   .column2 {width: 100%;padding: 8px 14px;}
   .column3{width: 100%;padding: 8px 14px;}
   header {
@@ -1508,7 +1615,7 @@ me-row {
   .lkoo {padding: 4px 14px;}
   .memenupoa {display: none;}
   .acsxd {width: 90%;}
-  .autocomplete{width: 90%;}
+  .autocomplete{width: 88%;}
   .sidebar {
     width: 100%;
     height: auto;
