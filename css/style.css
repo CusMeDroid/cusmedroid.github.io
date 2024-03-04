@@ -1454,12 +1454,12 @@ me-row {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
     font-family: "Courier New", Courier, monospace;
     font-size: 25px;
 }
 .sdtxt {
     text-shadow: 2px 2px #222222;
+    color: white;
 }
 .top {
     color: white;
