@@ -1541,6 +1541,12 @@ me-row {
     border-radius: 10px;
 }
 
+.col-img {
+    margin-right: 8px;
+    background-size: cover;
+    object-fit: cover;
+}
+
 /* Responsive Tablet */
 @media screen and (max-width: 1040px) {
     header {
