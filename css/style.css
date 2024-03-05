@@ -1545,6 +1545,7 @@ me-row {
     margin-right: 8px;
     background-size: cover;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 /* Responsive Tablet */
