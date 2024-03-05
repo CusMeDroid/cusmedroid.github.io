@@ -6,6 +6,18 @@
 * Suryo DwiJayanto
 */
 
+::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background: #fdfdfd;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #fdfdfd;
+}
+
 html {
     scroll-behavior: smooth;
 }
